@@ -1,0 +1,20 @@
+{
+  "name": "node-jangomail",
+  "version": "0.0.1",
+  "description": "A simple Promise based wrapper for the JangoMail API.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "axios": "0.17.0",
+    "qs": "6.5.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "JangoMail <development-team@us.jangomail.com>",
+  "license": "MIT"
+}
