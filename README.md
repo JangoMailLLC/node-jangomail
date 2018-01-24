@@ -6,7 +6,7 @@ A simple Promise based wrapper for the JangoMail API.
 
 Using npm:
 
-`$ npm install node-jangomail`
+`$ npm install --save node-jangomail`
 
 ## Examples
 
