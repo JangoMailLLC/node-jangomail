@@ -55,3 +55,27 @@ However, if you have provided your `Username` and `Password` up front, you only 
 * MessagePlain
 * MessageHTML
 * Options
+
+For instance, to send a transactional message through our service, try the following code:
+
+```
+const JangoMail = require('node-jangomail');
+
+let jm = new JangoMail('YOUR USERNAME', 'YOUR PASSWORD');
+
+jm.call('SendTransactionalEmail', {
+    FromEmail: 'john@example.com',
+    FromName: 'John Doe',
+    ToEmailAddress: 'jane@example.com',
+    Subject: 'This is a subject line',
+    MessagePlain: 'Plaintext Body',
+    MessageHTML: 'HTML Body',
+    Options: ''
+})
+.then(function (response) {
+  console.log(response);
+})
+.catch(function (error) {
+  console.log(error);
+});
+```
