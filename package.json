@@ -1,6 +1,6 @@
 {
   "name": "node-jangomail",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A simple Promise based wrapper for the JangoMail API.",
   "main": "index.js",
   "directories": {
